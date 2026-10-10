@@ -1,4 +1,4 @@
-# todo_mine
+# To Do App
 
 A simple to-do app built with Flutter. It lets the user add tasks, check them off when they're done, and delete tasks they no longer want.
 
