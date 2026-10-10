@@ -1,17 +1,31 @@
 # todo_mine
 
-A new Flutter project.
+A simple to-do app built with Flutter. It lets the user add tasks, check them off when they're done, and delete tasks they no longer want.
 
-## Getting Started
+## Preview
 
-This project is a starting point for a Flutter application.
+![App screenshot](screenshots/app.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Add a task with the text field and `+` button
+- Check a task off when it's done (the text gets a line-through)
+- Swipe a task to the left to delete it
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## What I learned
+
+- Using more than one Dart file and connecting them through classes (`main.dart`, `home page.dart`, `to do.dart`)
+- Implementing functions (add, check, delete) and passing them between widgets
+- Parent-child communication: `HomePage` passes data and functions down, and `toDo` calls those functions when the user checks or deletes a task
+- Stateless vs stateful widgets: `toDo` only displays data, `HomePage` owns it and uses `setState`
+- Using the `ListView` widget to display the list of tasks
+- Using the floating action button and placing a text field with it at the bottom
+- Styling a to-do item: a box with a checkbox, a title, and a slidable delete button
+- How `setState` works in a Flutter widget: every time the data changes, it rebuilds the screen to show the change
+
+## Run
+
+```
+flutter pub get
+flutter run
+```
