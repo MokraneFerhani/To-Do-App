@@ -4,8 +4,7 @@ A simple to-do app built with Flutter. It lets the user add tasks, check them of
 
 ## Preview
 
-![App screenshot](screenshots/app.png)
-
+![image alt](https://github.com/MokraneFerhani/To-Do-App/raw/d247b9ce06325b3b9fcb74e3e53179c750699083/screenshoot.jpeg)
 ## Features
 
 - Add a task with the text field and `+` button
